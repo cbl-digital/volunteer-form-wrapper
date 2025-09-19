@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Employee Volunteer Log</title>
+<link rel="preconnect" href="https://forms.zohopublic.eu">
+<link rel="dns-prefetch" href="//forms.zohopublic.eu">
+<style>
+  html,body{margin:0;height:100%}
+  .wrap{position:relative;height:100vh;max-height:2200px}
+  iframe{width:100%;height:100%;border:0;display:block;visibility:hidden}
+  .ovl{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#fff;
+       font:600 16px system-ui,Segoe UI,Arial}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div id="ovl" class="ovl">Loading Employee Volunteer Log…</div>
+    <iframe id="zf" title="Employee Volunteer Log"
+      src="https://forms.zohopublic.eu/cablebahamas/form/EmployeevolunteerLog/formperma/26wZN26nTFPVwzNN73VIPSe7mTg3N0zBXBLNulM2sv8"
+      loading="eager" referrerpolicy="no-referrer"></iframe>
+  </div>
+<script>
+  const f=document.getElementById('zf'), o=document.getElementById('ovl');
+  f.addEventListener('load', ()=>{ f.style.visibility='visible'; o.style.display='none'; });
+  setTimeout(()=>{ f.style.visibility='visible'; o.style.display='none'; }, 7000);
+</script>
+</body>
+</html>
